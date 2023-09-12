@@ -3,7 +3,6 @@
  * main - Entry point
  * Rturn: 0
  */
-
 int main(void)
 {	
 	char c;
@@ -12,7 +11,7 @@ int main(void)
 
 	c = 'a';
 	d = 'A';
-	while 
+	while	
 		(c <= 'z') {
 			putchar(c);
 			c++;
