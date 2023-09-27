@@ -2,9 +2,9 @@
 
 /**
  * _memset -Entry point
- * s: A pointer to the memory are to
- * b: the constant byte to fill
- * n: The number of byte to fill
+ * @s: A pointer to the memory area to 
+ * @b: the constant byte to fill
+ * @n: Function fills the first
  * Return: 0
  */
 char *_memset(char *s, char b, unsigned int n)
