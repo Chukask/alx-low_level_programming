@@ -2,20 +2,19 @@
 #include <stddef.h>
 
 /**
- *  _strchr _ Entry point
+ *  _strchr -  Entry point pointer to the first occurrence of the character
  *  @s: input
  *  @c: inpuer
  *  Return: 0
  */
 char *_strchr(char *s, char c)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; s[1] >= '\0'; i++)
+	for (; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
-			return (s + 1);
+			return (&s[i]);
 	}
-
-	return (NULL);
+	return (0);
 }
